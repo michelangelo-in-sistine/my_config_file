@@ -1,0 +1,24 @@
+set nu
+set incsearch
+set hlsearch
+set ignorecase
+set cursorline
+set cursorcolumn
+syntax enable
+syntax on
+
+color desert
+color delek 
+
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set textwidth=0
+set autoindent
+set noswapfile
+
+let mapleader=";"
+map <leader><leader>o :vs $MYVIMRC<CR>
+map <leader><leader>r :so $MYVIMRC<CR>
+
