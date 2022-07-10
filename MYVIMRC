@@ -17,6 +17,8 @@ set softtabstop=4
 set textwidth=0
 set autoindent
 set noswapfile
+setlocal list
+set listchars=tab:>~,trail:. 
 
 let mapleader=";"
 map <leader><leader>o :vs $MYVIMRC<CR>
