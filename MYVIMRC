@@ -1,3 +1,5 @@
+set nocompatible
+set backspace=indent,eol,start      "解决backspace不响应
 set nu
 set incsearch
 set hlsearch
