@@ -22,6 +22,11 @@ set noswapfile
 setlocal list
 set listchars=tab:>~,trail:. 
 
+set encoding=utf8
+set guifont=Inziu\ Iosevka\ SC:h12
+source $VIMRUNTIME/delmenu.vim        "解决菜单乱码
+source $VIMRUNTIME/menu.vim
+
 let mapleader=";"
 map <leader><leader>o :vs $MYVIMRC<CR>
 map <leader><leader>r :so $MYVIMRC<CR>
